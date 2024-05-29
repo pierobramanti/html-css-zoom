@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container-full{
+    max-width: 1200px;
+    margin: auto;
+}
+.row-h{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-14{
+    width: calc(100% / 7);
+    border: 1px dashed black;
+}
+
+.content{
+    border: 1px solid black;
+    height: 20px;
+    width: 30px;
+}
