@@ -16,6 +16,10 @@
 
 }
 
+main{
+    overflow-y: auto;
+}
+
 /* Layout*/
 
 
@@ -42,12 +46,10 @@
 
 .col-25{
     width:25%;
-    border: 1px dashed white;
     
 }
 .col-50{
     width:50%;
-    border: 1px dashed white;
     
 }
 
@@ -79,7 +81,6 @@
 }
 
 .function{
-    border: 1px dashed white;
     margin: 5px 5px;
     color: white;
     text-align: center;
@@ -89,7 +90,6 @@
 .close-call{
     display: flex;
     justify-content: flex-end;
-    border: 1px dashed white;
     width: 50%;
     height: 100%;
     margin-left: 200px;
