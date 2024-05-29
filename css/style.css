@@ -2,22 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
+    font-family: "Open Sans";
 }
 .container-full{
     max-width: 1200px;
     margin: auto;
+    
 }
+/* Layout*/
 .row-h{
     display: flex;
     flex-wrap: wrap;
+    background-color: yellow;
+    border: 2px dashed black;
+    padding: 10px 10px;
+    
 }
 .col-14{
     width: calc(100% / 7);
     border: 1px dashed black;
+    
 }
 
+/*content*/
+
 .content{
-    border: 1px solid black;
-    height: 20px;
-    width: 30px;
+    position: relative;
+    padding: 5px 5px;
+    
 }
+.content img{
+    width: 100%;
+}
+.badge{
+    background-color: grey;
+    color: white;
+    bottom: 10px;
+    left: 6px;
+    padding: 2px 2px;
+    position: absolute;  
+    display: flex;
+    font-size: 10px;
+}
+
+
+
