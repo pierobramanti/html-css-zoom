@@ -4,9 +4,9 @@
     box-sizing:border-box;
     font-family: "Open Sans";
 }
-.container-full{
-    width: 100%;
-    margin: auto;
+.container-main{
+    background-color: black;
+    padding: 20px 20px;
 
     
 }
@@ -17,8 +17,15 @@
 }
 
 main{
+    height: (100vh-50px);
     overflow-y: auto;
+   }
+
+footer{
+    height: 50px;
+    min-height: 50px;
 }
+
 
 /* Layout*/
 
@@ -26,10 +33,9 @@ main{
 .row-h{
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
-
-
-   
+    background-color: black; 
+    max-width: 1200px;
+    margin: auto;
     
 }
 
@@ -46,10 +52,14 @@ main{
 
 .col-25{
     width:25%;
-    
+    border: 1px dashed white;
+    display: flex;
+    justify-content:flex-start;
 }
 .col-50{
     width:50%;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -87,17 +97,8 @@ main{
  
 }
 
-.close-call{
-    display: flex;
-    justify-content: flex-end;
-    width: 50%;
-    height: 100%;
-    margin-left: 200px;
-    background: darkgrey;
-}
-.end-meeting{
-    color: red;
-}
+
+
 
 
 
