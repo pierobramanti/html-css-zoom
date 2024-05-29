@@ -5,13 +5,15 @@
     font-family: "Open Sans";
 }
 .container-full{
-    max-width: 1200px;
+    width: 100%;
     margin: auto;
+
     
 }
 
 .container-f{
     width: 100%;
+
 }
 
 /* Layout*/
@@ -21,7 +23,8 @@
     display: flex;
     flex-wrap: wrap;
     background-color: black;
-    border: 2px dashed white;
+
+
    
     
 }
@@ -29,21 +32,25 @@
 .row-f{
     display: flex;
     flex-wrap: wrap;
-    background-color: grey;
+    background-color: rgb(61, 60, 60);
 }
 .col-14{
     width: calc(100% / 7);
+ 
+    
+}
+
+.col-25{
+    width:25%;
+    border: 1px dashed white;
+    
+}
+.col-50{
+    width:50%;
     border: 1px dashed white;
     
 }
 
-.col-30{
-    width: calc(100% / 3);
-    border: 1px dashed white;
-    height: 100px;
-    
-
-}
 
 /*content*/
 
@@ -51,6 +58,11 @@
     position: relative;
     padding: 5px 5px;
     
+}
+
+.content-f{
+    padding: 10px 10px;
+    display: flex;
 }
 .content img{
     width: 100%;
@@ -64,6 +76,27 @@
     position: absolute;  
     display: flex;
     font-size: 10px;
+}
+
+.function{
+    border: 1px dashed white;
+    margin: 5px 5px;
+    color: white;
+    text-align: center;
+ 
+}
+
+.close-call{
+    display: flex;
+    justify-content: flex-end;
+    border: 1px dashed white;
+    width: 50%;
+    height: 100%;
+    margin-left: 200px;
+    background: darkgrey;
+}
+.end-meeting{
+    color: red;
 }
 
 
