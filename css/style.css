@@ -9,19 +9,40 @@
     margin: auto;
     
 }
+
+.container-f{
+    width: 100%;
+}
+
 /* Layout*/
+
+
 .row-h{
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
-    border: 2px dashed black;
+    background-color: black;
+    border: 2px dashed white;
    
     
 }
+
+.row-f{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+}
 .col-14{
     width: calc(100% / 7);
-    border: 1px dashed black;
+    border: 1px dashed white;
     
+}
+
+.col-30{
+    width: calc(100% / 3);
+    border: 1px dashed white;
+    height: 100px;
+    
+
 }
 
 /*content*/
